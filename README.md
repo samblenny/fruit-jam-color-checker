@@ -23,17 +23,26 @@ quantized from 256 step ramps into just 4 or 8 values (RGB332). As you can see,
 the color selection is okay for shades of green, blue, red, and magenta. But,
 the grays and other hues aren't that great.
 
-### Red
+
+### Red (3 bits, 8 values)
 ![8-bit red palette](png/8-bit-red.png)
 
-### Green
+
+### Green (3 bits, 8 values)
 ![8-bit green palette](png/8-bit-green.png)
 
-### Blue
+
+### Blue (2 bits, 4 values)
 ![8-bit blue palette](png/8-bit-blue.png)
 
-### Gray
+
+### Gray (8 values but weird)
+
+This one looks strange because blue is not able to change at the same rate as
+red and green.
+
 ![8-bit gray palette](png/8-bit-gray.png)
+
 
 ### RGB332 Colors
 ![8-bit rgb332 palette](png/8-bit-rgb332.png)
