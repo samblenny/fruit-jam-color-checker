@@ -53,11 +53,11 @@ red and green.
 
 These screenshots were taken on the same setup except for `color_depth=16`. The
 result is that the palette colors get quantized from 256 step ramps into 32 or
-64 values (RGB665). As you can see, this looks a lot smoother than the 8-bit
+64 values (RGB565). As you can see, this looks a lot smoother than the 8-bit
 version. In particular, the grays look fine this time.
 
 
-### Red (6 bits, 64 values)
+### Red (5 bits, 32 values)
 
 ![16-bit red palette](png/16-bit-red.png)
 
@@ -80,5 +80,8 @@ version. In particular, the grays look fine this time.
 ### RGB332 Colors
 
 These look about the same as the 8-bit version, but the gray values are better.
+It would be possible to pick many other 256 position palettes from the 65536
+available colors in 16-bit color depth mode, but I was lazy and just copied the
+same thing that I used for 8-bit mode.
 
 ![16-bit rgb332 palette](png/16-bit-rgb332.png)
