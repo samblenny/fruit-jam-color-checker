@@ -14,11 +14,12 @@ Things may change by the time CircuitPython 10.0.0 is released.
 ## Screen Captures at 8-bit Color Depth
 
 These screenshots were taken with an EVGA XR1 Lite into macOS on a display set
-for sRGB. The CircuitPython code was set to use `color_depth=8` for the
-`framebufferio.FramebufferDisplay`. The result is that the palette colors get
-quantized from 256 step ramps into just 4 or 8 values (RGB332). As you can see,
-the color selection is okay for shades of green, blue, red, and magenta. But,
-the grays and other hues aren't that great.
+for sRGB. The CircuitPython code was set to use `color_depth=8` for
+`picodvi.Framebuffer()`. The result is that the palette colors get quantized
+from 256 step ramps into just 4 or 8 values (RGB332). The low bits apparently
+get zero filled, which causes some weird effects with tinting and brightness.
+As you can see, the color selection is okay for shades of green, blue, red, and
+magenta. But, the grays and other hues aren't that great.
 
 
 ### Red (3 bits, 8 values)
