@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 <!-- SPDX-FileCopyrightText: Copyright 2025 Sam Blenny -->
-# Fruit Color Checker
+# Fruit Jam Color Checker
 
 This makes color swatch patterns for comparing Fruit Jam DVI output to colors
 on a regular computer.
