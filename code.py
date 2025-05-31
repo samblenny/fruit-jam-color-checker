@@ -53,7 +53,7 @@ def fill_palette(palette, style):
 
 
 # Configure Display Mode
-RGB665 = False
+RGB665 = True
 if RGB665:
     COLOR_DEPTH = 16  # Use RGB665 palette colors
 else:

@@ -25,14 +25,17 @@ the grays and other hues aren't that great.
 
 
 ### Red (3 bits, 8 values)
+
 ![8-bit red palette](png/8-bit-red.png)
 
 
 ### Green (3 bits, 8 values)
+
 ![8-bit green palette](png/8-bit-green.png)
 
 
 ### Blue (2 bits, 4 values)
+
 ![8-bit blue palette](png/8-bit-blue.png)
 
 
@@ -45,4 +48,40 @@ red and green.
 
 
 ### RGB332 Colors
+
 ![8-bit rgb332 palette](png/8-bit-rgb332.png)
+
+
+## Screen Captures at 16-bit Color Depth
+
+These screenshots were taken on the same setup except for `color_depth=16`. The
+result is that the palette colors get quantized from 256 step ramps into 32 or
+64 values (RGB665). As you can see, this looks a lot smoother than the 8-bit
+version. In particular, the grays look fine this time.
+
+
+### Red (6 bits, 64 values)
+
+![16-bit red palette](png/16-bit-red.png)
+
+
+### Green (6 bits, 64 values)
+
+![16-bit green palette](png/16-bit-green.png)
+
+
+### Blue (5 bits, 32 values)
+
+![16-bit blue palette](png/16-bit-blue.png)
+
+
+### Gray (64 values)
+
+![8-bit gray palette](png/16-bit-gray.png)
+
+
+### RGB332 Colors
+
+These look about the same as the 8-bit version, but the gray values are better.
+
+![16-bit rgb332 palette](png/16-bit-rgb332.png)
