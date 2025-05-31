@@ -21,8 +21,6 @@ import supervisor
 from terminalio import FONT
 from time import sleep
 
-from adafruit_display_text import bitmap_label
-
 
 def fill_palette(palette, style):
     # Fill the palette with 256 colors in the specified style
